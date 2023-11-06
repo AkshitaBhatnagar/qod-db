@@ -24,11 +24,11 @@ spec:
               protocol: TCP
           resources:
             limits:
-              cpu: 50m
-              memory: 50Mi
+              cpu: 70m
+              memory: 70Mi
             requests:
-              cpu: 50m
-              memory: 50Mi
+              cpu: 70m
+              memory: 70Mi
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: root
